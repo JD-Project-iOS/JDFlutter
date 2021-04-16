@@ -15,14 +15,13 @@
 		6003F59E195388D20070C39A /* JDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* JDAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* JDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* JDViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		C6404D69E06AA581FB51DBFE /* Pods_JDFlutter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136C87E1A4C60897F406E0B0 /* Pods_JDFlutter_Tests.framework */; };
+		B370AE0E8F35E45093B9DA99 /* Pods_JDFlutter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE37A0C6EA7A9FEB3D7C7180 /* Pods_JDFlutter_Tests.framework */; };
 		F7E3D809DA3E09F4F2E19CB4 /* Pods_JDFlutter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD3F155F6A78386F665A798 /* Pods_JDFlutter_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		0AA522149B7EADE250F28F99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		136C87E1A4C60897F406E0B0 /* Pods_JDFlutter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDFlutter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1858313226BDC33DA7FFC716 /* Pods-JDFlutter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDFlutter_Tests.release.xcconfig"; path = "Target Support Files/Pods-JDFlutter_Tests/Pods-JDFlutter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4FD3F155F6A78386F665A798 /* Pods_JDFlutter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDFlutter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JDFlutter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDFlutter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +53,6 @@
 		6003F5A6195388D20070C39A /* JDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* JDFlutter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDFlutter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
@@ -67,6 +64,7 @@
 		A18008C80C72A8C1562114D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A95DDD1C5D7FB07296964133 /* JDFlutter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JDFlutter.podspec; path = ../JDFlutter.podspec; sourceTree = "<group>"; };
 		EF01195B19CFF07B083C0AA3 /* Pods-JDFlutter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDFlutter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JDFlutter_Tests/Pods-JDFlutter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE37A0C6EA7A9FEB3D7C7180 /* Pods_JDFlutter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDFlutter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				C6404D69E06AA581FB51DBFE /* Pods_JDFlutter_Tests.framework in Frameworks */,
+				B370AE0E8F35E45093B9DA99 /* Pods_JDFlutter_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,9 +130,8 @@
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
 				4FD3F155F6A78386F665A798 /* Pods_JDFlutter_Example.framework */,
-				136C87E1A4C60897F406E0B0 /* Pods_JDFlutter_Tests.framework */,
+				FE37A0C6EA7A9FEB3D7C7180 /* Pods_JDFlutter_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
