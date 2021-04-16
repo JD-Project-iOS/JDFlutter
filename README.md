@@ -22,7 +22,7 @@ pod 'JDFlutter'
 
 ## Author
 
-571502887@qq.com, 571502887@qq.com
+jiedi, 571502887@qq.com
 
 ## License
 
