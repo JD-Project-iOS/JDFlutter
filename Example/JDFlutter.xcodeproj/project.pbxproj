@@ -21,7 +21,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B370AE0E8F35E45093B9DA99 /* Pods_JDFlutter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE37A0C6EA7A9FEB3D7C7180 /* Pods_JDFlutter_Tests.framework */; };
 		F7E3D809DA3E09F4F2E19CB4 /* Pods_JDFlutter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD3F155F6A78386F665A798 /* Pods_JDFlutter_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +63,6 @@
 		A18008C80C72A8C1562114D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A95DDD1C5D7FB07296964133 /* JDFlutter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JDFlutter.podspec; path = ../JDFlutter.podspec; sourceTree = "<group>"; };
 		EF01195B19CFF07B083C0AA3 /* Pods-JDFlutter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDFlutter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JDFlutter_Tests/Pods-JDFlutter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FE37A0C6EA7A9FEB3D7C7180 /* Pods_JDFlutter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDFlutter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,6 @@
 			files = (
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				B370AE0E8F35E45093B9DA99 /* Pods_JDFlutter_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +128,6 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				4FD3F155F6A78386F665A798 /* Pods_JDFlutter_Example.framework */,
-				FE37A0C6EA7A9FEB3D7C7180 /* Pods_JDFlutter_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
