@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JDFlutter (0.3.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JDFlutter (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JDFlutter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JDFlutter: d3ede4ed4944e37ff47bef5a05d63239a726dbd4
+
+PODFILE CHECKSUM: 526e9d44b1383899141d122ee6dd9c8ba52ad405
+
+COCOAPODS: 1.10.1

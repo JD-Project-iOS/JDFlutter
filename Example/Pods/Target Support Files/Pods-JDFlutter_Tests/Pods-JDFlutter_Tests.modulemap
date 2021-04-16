@@ -1,0 +1,6 @@
+framework module Pods_JDFlutter_Tests {
+  umbrella header "Pods-JDFlutter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
